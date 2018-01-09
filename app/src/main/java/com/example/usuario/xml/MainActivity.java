@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         if(view==btn4)
         {
-
+            startActivity(new Intent(MainActivity.this,NoticiasActivity.class));
         }
         if(view==btn5)
         {
